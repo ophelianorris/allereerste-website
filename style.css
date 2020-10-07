@@ -1,36 +1,62 @@
-### Surviving Dark Age Politics
 
-Our main source for the sixth century is perhaps an unlikely one. 
 
-The *History of the Franks*, or the *Histories*, describes the story of the Frankish people from Adam and Eve to the author’s present day: sixth-century Francia (see map). 
+html {
+  background-color: #fefffd;
+}
 
-The *Histories* were written by Gregory, Bishop of Tours (c. 538 – 594 AD), an influential and engaging man.
+body {
+  width: 750px;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 1em;
 
-He begins the text by stating that 
 
-#a great many things keep happening, some of them good, some of them bad. 
 
-What follows is an account of everything Gregory considered important, from the weather to civil war. This, then, provides a fascinating and unique insight into the mentality of sixth-century life, covering not only high politics and war, but also aspects of daily life in Tours.
+  font-family: 'FiraSansRegular';
+  font-weight: normal;
+  font-style: normal;
+}
 
-## A devoted Christian?
-For the parts of history that Gregory didn’t live through himself (such as the dawn of man), he did as all good historians would do: use other sources. Yet one of his sources was the Bible. How can this still be a work of history? Christianity in Francia was intertwined with and inseparable from the past, from politics, and from every day life. 
+body, pre, pre code {
+  font-size: 18px;
+}
 
-This is clear right from the first book, due to the significant role given to one bishop, Martin of Tours (316 – 397 AD).  
+a, a:visited {
+  color: #48820f;
+}
 
-As Gregory was Bishop of Tours after him, he was especially connected to the saint. Today, Martin is the patron saint of countries, cities and geese. In Gregory’s day, Martin was one of the most famous saints in Francia.
+h1, h2 {
+  display: inline-block;
+  border-bottom-style: dotted;
+  border-bottom-color: #48820f;
+}
 
-Yet it may not be just pure devotion. Gregory’s status was inherently connected to St Martin’s. 
+h1 {
+  border-bottom-width: 10px;
+}
 
-As Martin was Bishop of Tours, just like Gregory, Martin’s relics were in Gregory’s possession and pilgrims came to visit Martin’s tomb and basilica in Tours. This brought a nice income to Tours. Kings wanted Gregory’s advice as he ‘inherited’ Martin’s wisdom. 
+h2 {
+  border-bottom-width: 5px;
+}
 
-The role of Martin in the *Histories* does not only tell a modern audience about Christian belief, but also the significance and possible manipulation of that belief. 
+img, audio, iframe {
+  width: 100%;
+}
 
-Medieval people have long been believed to be simple, naive and superstitious, but Gregory of Tours’ writings demonstrate the complexity of the sixth-century landscape, and the intricacy of the society.
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /*16:9*/
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
 
-## Long-lasting legacy
-
-Not only is this our main source for understanding sixth-century Francia, but Gregory brings it to life through showing its complexity in a colourful, lively and engaging way. Unlike the writings of modern historians, Gregory didn’t follow one particular theme. 
-
-Instead, he covered all things that interested him. Unusual weather, wars with the Bretons, civil war, miracle stories, it feels like there’s a place for everything in the Histories. It teaches us about this oft-forgotten period with humanity and humour. 
-
-In reading Gregory’s Histories, we are encouraged to reflect on our own time, and what is important to us. In a text written so long ago, in a vastly different culture of feuds and warrior kings, we still can find humour and humanity.
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
